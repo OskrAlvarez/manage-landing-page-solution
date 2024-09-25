@@ -45,5 +45,5 @@ nearly to this without the overlay in the mobile menu
 - [Swiper](https://swiperjs.com/) - For slide mobile testimonial
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@oscaralvarezp](https://www.frontendmentor.io/profile/oscaralvarezp)
 
