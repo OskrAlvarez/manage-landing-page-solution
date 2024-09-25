@@ -1,0 +1,23 @@
+---
+import Feature from "../Feature.astro"
+import { features } from '../../constans/index.js'
+---
+<section class="p-6 md:flex md:gap-9 items-center md:items-start">
+  <div class="flex-[50%] mb-8 md:m-0">
+    <h2 class="text-3xl font-bold text-darkBlue text-center py-6 md:text-left">What’s different about Manage?</h2>
+    <p class="text-darkGrayishBlue text-center leading-8 w-[90%] mx-auto md:text-left md:w-full md:text-xl md:font-light">Manage provides all the functionality your team needs, without 
+      the complexity. Our software is tailor-made for modern digital 
+      product teams.</p>
+  </div>
+  <div class="flex-[50%] md:self-start">
+    {
+      features.map(feature => (
+        <Feature 
+          id={feature.id} 
+          title={feature.title} 
+          description={feature.description} 
+        />
+      ))
+    }
+  </div>
+</section>
